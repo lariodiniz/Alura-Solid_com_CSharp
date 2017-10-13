@@ -49,17 +49,24 @@
     <Compile Include="Aula01\DezOuVintePorcento.cs" />
     <Compile Include="Aula01\Funcionario.cs" />
     <Compile Include="Aula01\IRegraDeCalculo.cs" />
-    <Compile Include="EnviadorDeEmail.cs" />
-    <Compile Include="Fatura.cs" />
-    <Compile Include="GeradorDeNotaFiscal.cs" />
-    <Compile Include="IAcaoAposGerarNota.cs" />
-    <Compile Include="NotaFiscal.cs" />
-    <Compile Include="NotaFiscalDao.cs" />
+    <Compile Include="Aula02\EnviadorDeEmail.cs" />
+    <Compile Include="Aula02\Fatura.cs" />
+    <Compile Include="Aula02\GeradorDeNotaFiscal.cs" />
+    <Compile Include="Aula02\IAcaoAposGerarNota.cs" />
+    <Compile Include="Aula02\NotaFiscal.cs" />
+    <Compile Include="Aula02\NotaFiscalDao.cs" />
+    <Compile Include="CalculadoraDePrecos.cs" />
+    <Compile Include="Compra.cs" />
+    <Compile Include="Frete.cs" />
+    <Compile Include="IServicoDeEntrega.cs" />
+    <Compile Include="ITabelaDePreco.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Aula01\QuinzeouVinteCincoPorcento.cs" />
     <Compile Include="Aula01\Tester.cs" />
-    <Compile Include="SAP.cs" />
+    <Compile Include="Aula02\SAP.cs" />
+    <Compile Include="TabelaDePrecoPadrao.cs" />
+    <Compile Include="Transportadora.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

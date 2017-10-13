@@ -22,7 +22,7 @@ namespace Solid
             Console.ReadKey();
             */
 
-            /* Aula 02 */
+            /* Aula 02 
 
             EnviadorDeEmail enviadorEmail = new EnviadorDeEmail();
             NotaFiscalDao nfDao = new NotaFiscalDao();
@@ -38,6 +38,18 @@ namespace Solid
             Fatura fatura = new Fatura(2000, "Renan Sergio");
             gnf.Gera(fatura);
             Console.ReadKey();
+            */
+
+            /* Aula 03 */
+
+            Compra compra = new Compra(500, "sao paulo");
+            CalculadoraDePrecos calc = new CalculadoraDePrecos(new TabelaDePrecoPadrao(), new Transportadora());
+
+            double resuldado = calc.Calcula(compra);
+
+            Console.WriteLine("O preço da compra é: "+ resuldado);
+            Console.ReadKey();
+
 
         }
     }
