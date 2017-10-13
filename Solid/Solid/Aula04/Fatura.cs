@@ -8,6 +8,7 @@ namespace Solid
         public double Valor { get; set; }
         private IList<Pagamento> pagamentos;
         public bool Pago { get; private set; }
+        public double ValorMensal { get; internal set; }
 
         public Fatura(string cliente, double valor)
         {
