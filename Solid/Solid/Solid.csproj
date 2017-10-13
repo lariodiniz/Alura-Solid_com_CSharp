@@ -55,18 +55,23 @@
     <Compile Include="Aula02\IAcaoAposGerarNota.cs" />
     <Compile Include="Aula02\NotaFiscal.cs" />
     <Compile Include="Aula02\NotaFiscalDao.cs" />
-    <Compile Include="CalculadoraDePrecos.cs" />
-    <Compile Include="Compra.cs" />
-    <Compile Include="Frete.cs" />
-    <Compile Include="IServicoDeEntrega.cs" />
-    <Compile Include="ITabelaDePreco.cs" />
+    <Compile Include="Aula03\CalculadoraDePrecos.cs" />
+    <Compile Include="Aula03\Compra.cs" />
+    <Compile Include="Aula03\Frete.cs" />
+    <Compile Include="Aula03\IServicoDeEntrega.cs" />
+    <Compile Include="Aula03\ITabelaDePreco.cs" />
+    <Compile Include="Boleto.cs" />
+    <Compile Include="Fatura.cs" />
+    <Compile Include="MeioDePagamento.cs" />
+    <Compile Include="Pagamento.cs" />
+    <Compile Include="ProcessadorDeBoletos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Aula01\QuinzeouVinteCincoPorcento.cs" />
     <Compile Include="Aula01\Tester.cs" />
     <Compile Include="Aula02\SAP.cs" />
-    <Compile Include="TabelaDePrecoPadrao.cs" />
-    <Compile Include="Transportadora.cs" />
+    <Compile Include="Aula03\TabelaDePrecoPadrao.cs" />
+    <Compile Include="Aula03\Transportadora.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

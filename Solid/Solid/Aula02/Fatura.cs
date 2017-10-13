@@ -1,4 +1,4 @@
-﻿namespace Solid
+﻿namespace Aula02.Solid
 {
     public class Fatura
     {

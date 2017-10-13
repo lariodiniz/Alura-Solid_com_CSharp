@@ -40,7 +40,7 @@ namespace Solid
             Console.ReadKey();
             */
 
-            /* Aula 03 */
+            /* Aula 03 
 
             Compra compra = new Compra(500, "sao paulo");
             CalculadoraDePrecos calc = new CalculadoraDePrecos(new TabelaDePrecoPadrao(), new Transportadora());
@@ -49,6 +49,9 @@ namespace Solid
 
             Console.WriteLine("O preço da compra é: "+ resuldado);
             Console.ReadKey();
+            */
+
+            /* Aula 04 */
 
 
         }
